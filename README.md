@@ -9,3 +9,5 @@ SetInterval pour gérer le délai de l'animation
 
 Utilisation de 12 images du personnage [La Linéa](http://fr.wikipedia.org/wiki/La_Linea)
 
+
+Démo là : https://lcapdecomme.github.io/laLinea/#
