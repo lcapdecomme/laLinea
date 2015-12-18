@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon projet canvas</title>
+		<meta charset="utf-8">
+        <script src="laLinea.js"></script>
+        <style>
+        #canvasLaLineaMarche {
+	float:left;
+        }
+.bouton {
+	background:#30416a;
+	background-color:#30416a;
+	-webkit-border-top-left-radius:13px;
+	-moz-border-radius-topleft:13px;
+	border-top-left-radius:13px;
+	-webkit-border-top-right-radius:13px;
+	-moz-border-radius-topright:13px;
+	border-top-right-radius:13px;
+	-webkit-border-bottom-right-radius:13px;
+	-moz-border-radius-bottomright:13px;
+	border-bottom-right-radius:13px;
+	-webkit-border-bottom-left-radius:13px;
+	-moz-border-radius-bottomleft:13px;
+	border-bottom-left-radius:13px;
+	text-indent:0;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:40px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:50px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #7cacde;
+	float: left;
+	margin:10px;
+}
+.bouton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #44598a), color-stop(1, #30416a) );
+	background:-moz-linear-gradient( center top, #44598a 5%, #30416a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44598a', endColorstr='#30416a');
+	background-color:#44598a;
+}.bouton:active {
+	position:relative;
+	top:1px;
+}
+        </style>
+    </head>
+    <body>
+    	<p>Test du canvas HTML5</p>
+    	<p>DrawImage du contexte du canvas pour charger une image</p>
+    	<p>SetInterval pour gérer le délai de l'animation</p>
+    	<p>Utilisation de 12 images du personnage <a href="http://fr.wikipedia.org/wiki/La_Linea">La Linéa</a></p>
+    	<br />
+        <canvas id="canvasLaLineaMarche" width="300" height="180" >
+            Message pour les navigateurs ne supportant pas encore canvas.
+        </canvas>
+        <a href="#" class="bouton" id="bouton-">-</a>
+        <a href="#" class="bouton" id="boutonr">></a>
+        <a href="#" class="bouton" id="boutonp">=</a>
+        <a href="#" class="bouton" id="bouton+">+</a>
+    </body>
+</html>
